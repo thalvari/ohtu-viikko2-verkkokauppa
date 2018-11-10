@@ -20,11 +20,9 @@ public class Ostoskori {
 
     public int hinta() {
         int hinta = 0;
-
         for (Tuote tuote : tuotteet) {
             hinta += tuote.getHinta();
         }
-
         return hinta;
     }
 }
