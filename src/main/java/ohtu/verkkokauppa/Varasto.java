@@ -1,6 +1,6 @@
 package ohtu.verkkokauppa;
 
-import java.util.*;
+import java.util.HashMap;
 
 public class Varasto implements VarastoRajapinta {
     private KirjanpitoRajapinta kirjanpito;
